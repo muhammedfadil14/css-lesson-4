@@ -1,0 +1,28 @@
+input[type="text"]
+{
+    border: 2px solid red
+}
+ul>li
+{
+    color: mediumorchid;
+}
+h2 + h3 {
+    font-style: italic;
+}
+a:hover
+{
+    color: darkgreen;
+    font-size: 30px ;
+}
+input:focus
+{
+    background-color: steelblue;
+}
+.decorated::before{
+    content:"Star⭐";
+}
+p::first-letter
+{
+    font-size: 400px;
+    color: red;
+}
